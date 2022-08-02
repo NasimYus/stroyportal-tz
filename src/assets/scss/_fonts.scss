@@ -1,0 +1,8 @@
+.as-font {
+  font-family: 'Open Sans' !important;
+  font-style: normal;
+}
+
+body {
+  @extend .as-font;
+}
