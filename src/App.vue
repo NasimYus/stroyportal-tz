@@ -1,5 +1,13 @@
 <template>
-  <div class="container">123</div>
+  <div class="container">
+    <the-header></the-header>
+  </div>
 </template>
 
-<script setup></script>
+<script setup>
+import { defineAsyncComponent } from "vue";
+
+const TheHeader = defineAsyncComponent(() =>
+  import("./components/core/TheHeader.vue")
+);
+</script>
