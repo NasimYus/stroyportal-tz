@@ -1,0 +1,89 @@
+.navbar {
+  border: 1px solid #eceff1;
+
+  .navbar-nav {
+    height: 76px;
+
+    .navbar-catalog-button {
+      height: 40px;
+      width: 116px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: #fed83d;
+      border-radius: 4px;
+      text-decoration: none;
+
+      .navbar-list-icon-fist {
+        width: 15px;
+        height: 2px;
+        background-color: #222222;
+        margin-bottom: 5px;
+      }
+
+      .navbar-list-icon-second {
+        width: 15px;
+        height: 2px;
+        background-color: #222222;
+        margin-bottom: 5px;
+      }
+
+      .navbar-list-icon-third {
+        width: 15px;
+        height: 2px;
+        background-color: #222222;
+        margin: 1px 0;
+      }
+
+      .navbar-button-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #050f19;
+      }
+    }
+
+    .navbar-input {
+      width: 248px;
+      height: 40px;
+      border: 1px solid #eceff1;
+      border-radius: 4px;
+      background: url(../../assets/img/icons/search.svg) no-repeat scroll 230px 8px;
+      padding-left: 30px;
+    }
+
+    .navbar-list-button {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 111px;
+      height: 40px;
+      background: #fafbfc;
+      border: 1px solid #eceff1;
+      border-radius: 4px;
+
+      .navbar-list-button-text {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+      }
+    }
+
+    .navbar-profile-button {
+      width: 40px;
+      height: 40px;
+      background: #9b51e0;
+      border-radius: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      span {
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        color: #ffffff;
+      }
+    }
+  }
+}
