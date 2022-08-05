@@ -1,6 +1,7 @@
 <template>
   <div>
     <ProductBreadcrumbs></ProductBreadcrumbs>
+    <h1 class="product-header"></h1>
   </div>
 </template>
 
