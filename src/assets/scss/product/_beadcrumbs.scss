@@ -1,0 +1,29 @@
+.breadcrumbs-list {
+  display: flex;
+  justify-content: start;
+  list-style-type: none;
+
+  .breadcrumbs-list-item {
+    display: flex;
+    div {
+      &:hover {
+        color: #122ac7;
+      }
+      .breadcrumbs-list-item-text {
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        display: block;
+      }
+
+      .breadcrumbs-list-item-count {
+        @extend .breadcrumbs-list-item-text;
+        color: #708598;
+      }
+    }
+
+    .breadcrumbs-list-item-arrow {
+      margin: 0 23px;
+    }
+  }
+}

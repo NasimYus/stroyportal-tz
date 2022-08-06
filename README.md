@@ -2,18 +2,23 @@
 
 ## Project setup
 ```
+
 npm install
 ```
 
 ### Compiles and hot-reloads for development
 ```
 npm run serve
+then open another terminal
+run cd backend
+run npm start
+/**
+* Now you can use this project with backend
+**/
+
 ```
 
-### Compiles and minifies for production
-```
-npm run build
-```
+
 
 ### Lints and fixes files
 ```

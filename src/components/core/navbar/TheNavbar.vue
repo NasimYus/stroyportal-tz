@@ -15,13 +15,7 @@
           </div>
           <span class="navbar-catalog-button-text">Каталог</span>
         </a>
-        <div>
-          <input
-            type="text"
-            class="navbar-input"
-            placeholder="Строительные смеси"
-          />
-        </div>
+        <search-input></search-input>
       </div>
       <div class="navbar-nav-item items-center">
         <button class="margin-right-md navbar-list-button">
@@ -37,4 +31,10 @@
     </nav>
   </div>
 </template>
-<script setup></script>
+<script setup>
+import { defineAsyncComponent } from "vue";
+
+const searchInput = defineAsyncComponent(() =>
+  import("../../../components/core/navbar/SearchInput")
+);
+</script>

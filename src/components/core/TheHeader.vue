@@ -12,10 +12,10 @@
     <div class="items-center">
       <a class="margin-right-md cursor-pointer" href="#">Тендеры</a>
       <a class="margin-right-md cursor-pointer" href="#">База подрядчиков</a>
-      <a href="#" class="items-center cursor-pointer"
-        ><span class="margin-right-xs">Другие сервисы</span
-        ><img src="../../assets/img/icons/arrow-bottom.svg"
-      /></a>
+      <a href="#" class="items-center cursor-pointer">
+        <span class="margin-right-xs">Другие сервисы </span>
+        <img src="../../assets/img/icons/arrow-bottom.svg" />
+      </a>
     </div>
   </nav>
 </template>
