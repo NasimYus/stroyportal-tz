@@ -1,26 +1,21 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <div>
+    <the-header class="container"></the-header>
+    <the-navbar></the-navbar>
+    <product-show></product-show>
+  </div>
 </template>
 
-<script>
-import HelloWorld from "./components/HelloWorld.vue";
+<script setup>
+import { defineAsyncComponent } from "vue";
 
-export default {
-  name: "App",
-  components: {
-    HelloWorld,
-  },
-};
+const TheHeader = defineAsyncComponent(() =>
+  import("./components/core/TheHeader.vue")
+);
+const TheNavbar = defineAsyncComponent(() =>
+  import("./components/core/navbar/TheNavbar.vue")
+);
+const ProductShow = defineAsyncComponent(() =>
+  import("./pages/product/ProductShow.vue")
+);
 </script>
-
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
-</style>

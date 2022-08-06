@@ -1,0 +1,42 @@
+.margin-right-xs {
+margin-right: 8px;
+}
+.margin-y-sm {
+  margin: 16px 0px;
+}
+.margin-right-sm {
+  margin-right: 16px;
+}
+
+.margin-right-md {
+  margin-right: 24px;
+}
+
+.items-center {
+   display: flex;
+   align-items: center;
+ }
+
+.content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.content-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-start {
+  display: flex;
+  justify-content: start;
+}
+
+.content-end {
+  display: flex;
+  justify-content: end;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}

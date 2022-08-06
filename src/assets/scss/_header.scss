@@ -1,0 +1,16 @@
+.header-wrapper {
+  padding: 7px 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #FAFBFC;
+
+  a {
+    color: #708598;
+    text-decoration: none;
+    font-size: 12px;
+    &:hover {
+      color: #818181
+    }
+  }
+
+}
